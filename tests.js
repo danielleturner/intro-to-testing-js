@@ -45,5 +45,16 @@ describe('someGreeting', function() {
     it('should return a string when called'), function () {
         expect('sayHello').toBe('sayHello');
     }
+
+})
+
+/**Exercise #2 Ensure our function returns the right data type.*/
+describe('nameOfFunction', function () {
+    it('should be a function', function () {
+        expect(typeof 'function').toBe('string')
+    });
+    it('should return a string', function () {
+        expect(typeof 'function').toBe('string')
+    })
 })
 
